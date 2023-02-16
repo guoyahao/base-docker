@@ -134,7 +134,7 @@ services:
       STORE_DRIVER: redis
       STORE_HOST: ${SERVER_IP}
       STORE_USER:
-      STORE_PASSWORD: "Test@topgaming"
+      STORE_PASSWORD: "Test@redis"
       STORE_PORT: 6379
       MICRO_SERVICE_DRIVER: "dtm-driver-kratos"
       MICRO_SERVICE_TARGET: "consul://${SERVER_IP}:8500/dtmservice"
