@@ -1,0 +1,15 @@
+cluster.name: "elasticsearch" #设置集群名称为elasticsearch
+network.host: 0.0.0.0
+discovery.type: single-node #以单一节点模式启动
+
+# 是否支持跨域
+http.cors.enabled: true
+# 表示支持所有域名
+http.cors.allow-origin: "*"
+# 内存交换的选项，官网建议为true
+bootstrap.memory_lock: true
+# resetful端口
+http.port: 9200
+
+# xpack安全
+xpack.security.enabled: false
